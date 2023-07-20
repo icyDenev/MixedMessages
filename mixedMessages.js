@@ -5,3 +5,5 @@ let songLength = ["3:15", "4:20", "2:30", "5:24", "3:15"];
 let songYear = ["2008", "2004", "1999", "2000", "2005"];
 
 let randomSong = songTitles[Math.floor(Math.random() * songTitles.length)];
+
+let combinedSongMessage = 'Title: ' + songTitles[randomSong] + '\nLength:' + songLength[randomSong] + '\nYear: ' + songYear[randomSong];
